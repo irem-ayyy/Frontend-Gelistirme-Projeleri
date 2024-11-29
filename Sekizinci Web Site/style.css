@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #eafaf1;
+}
+
+/* menu start */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.menu .logo {
+  margin: 30px;
+  margin-left: 11.5em;
+  margin-top: 3em;
+}
+
+.menu .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+  margin-top: 3em;
+  margin-right: 15em;
+}
+
+.menu .navbar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.menu .navbar ul li {
+  list-style: none;
+  font-weight: 800;
+  color: #00ad6a;
+  background-color: #eafaf1;
+  cursor: pointer;
+}
+
+.menu .navbar ul .pric {
+  color: #080c16;
+}
+
+.menu .navbar .btn-menu {
+  margin-left: 3em;
+  height: 2.2em;
+  width: 6em;
+  background-color: #00ad6a;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu .navbar .btn-menu button {
+  height: 2.6em;
+  width: 7.2em;
+  color: #00ad6a;
+  background-color: #eafaf1;
+  border: 2.3px solid #00ad6a;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.menu .navbar .btn-menu button:hover {
+  transform: translateY(-10px);
+  transition: 0.1s ease;
+  margin-left: 0.3em;
+}
+/* menu end */
+
+/* ana yazi start */
+.ana-yazi {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.ana-yazi .buyuk_yazi {
+  font-size: 3.5em;
+  font-weight: 800;
+}
+
+.ana-yazi .kucuk_yazi {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: 1em;
+}
+/* ana yazi end */
+
+/* kart start */
+.kart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5em;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 2em;
+}
+
+.kart .a-none {
+  border: none;
+  margin-top: 10em;
+  width: 41vh;
+  text-align: left;
+}
+
+.kart .a-none .yesil {
+  color: #00ad6a;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+.kart .a-none .orta_yazi {
+  color: #464951;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.kart .a-none .son_yazi {
+  font-size: 17px;
+  color: #464951;
+  line-height: 23px;
+  margin-top: 2em;
+}
+
+.kart .a-var {
+  border: 2px solid #00ad6a;
+  width: 55vh;
+  text-align: left;
+  padding: 2em;
+  height: 100vh;
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  background-color: #fcfcfc;
+  margin-top: 5em;
+}
+
+.kart .a-var .baslik_1 {
+  background-color: #00ad6a;
+  width: 54.7vh;
+  height: 1.6em;
+  margin-top: -1.6em;
+  margin-left: -1.6em;
+  border-start-start-radius: 8px;
+  border-start-end-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.kart .a-var ._yesil {
+  color: #00ad6a;
+  font-size: 40px;
+  margin-top: 1em;
+  margin-left: 2em;
+  background-color: #fcfcfc;
+  font-weight: 800;
+}
+
+.kart .a-var .kucuk_yazi {
+  background-color: #fcfcfc;
+  margin-left: 3em;
+  margin-top: 0.3em;
+  font-size: 23px;
+  color: #464951;
+  font-weight: unset;
+}
+
+.kart .a-var .btn-kart {
+  margin-top: 1em;
+  margin-left: 1.5em;
+  background-color: #1fe374;
+  width: 9em;
+  height: 2.1em;
+  border: none;
+  font-size: 25px;
+  font-weight: 900;
+  transition: transform 0.3s ease;
+}
+
+.kart .a-var .btn-kart:hover {
+  transform: scale(1.1);
+}
+
+.kart .a-var .kucuk_baslik {
+  background-color: #fcfcfc;
+  margin-top: 1em;
+  color: #464951;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 1.9em;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+}
+
+.kart .a-var .alt-son-yazi {
+  background-color: #fcfcfc;
+  margin-top: 1em;
+  color: #464951;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 28px;
+}
+
+.kart .a-var .alt-son-yazi i {
+  color: #00ad6a;
+  background-color: #fcfcfc;
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: -1em;
+}
+
+.kart .a-var .alt-son-yazi p {
+  margin-left: 0.5em;
+  background-color: #fcfcfc;
+  margin-top: -1.5em;
+  letter-spacing: 1px;
+  width: 48vh;
+}
+
+.kart .a-gri {
+  margin-left: -0.7em;
+  background-color: #fcfcfc;
+  border: 2px solid gainsboro;
+  width: 57vh;
+  height: 35em;
+  margin-top: 3em;
+}
+
+.kart .a-gri .gri_yazi {
+  background-color: #f2f3f3;
+  height: 5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.kart .a-gri .gri_yazi p {
+  font-size: 15px;
+  color: #464951;
+  background-color: #f2f3f3;
+  padding: 1.5em;
+}
+
+.kart .a-gri .yesil_b_yazi {
+  color: #00ad6a;
+  padding: 1em;
+  background-color: #fcfcfc;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.kart .a-gri .bas_kucuk_yazi {
+  background-color: #fcfcfc;
+  color: #464951;
+  margin-top: -1.5em;
+  font-size: 23px;
+}
+
+.kart .a-gri .yesil_btn {
+  margin-left: 4em;
+  margin-top: 1em;
+  background-color: #1fe374;
+  width: 9em;
+  height: 2.1em;
+  border: none;
+  font-size: 25px;
+  font-weight: 900;
+  transition: transform 0.3s ease;
+  padding: 0.3em;
+}
+
+.kart .a-gri .yesil_btn:hover {
+  transform: scale(1.1);
+}
+
+.kart .a-gri .black {
+  background-color: #fcfcfc;
+  font-size: 13px;
+  margin-top: 1em;
+  color: #464951;
+  letter-spacing: 1px;
+}
+
+.kart .a-gri ul {
+  background-color: #fcfcfc;
+  margin-top: 1em;
+  text-align: left;
+}
+
+.kart .a-gri ul i,
+li {
+  background-color: #fcfcfc;
+}
+.kart .a-gri ul i {
+  margin-left: 1em;
+  color: #00ad6a;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.kart .a-gri ul li {
+  margin-top: -1.5em;
+  margin-left: 2.5em;
+  list-style: none;
+  line-height: 2em;
+  font-weight: 400;
+}
+/* kart end */
+
+/* icon alt start */
+.icon_alt {
+  margin-top: 5em;
+  margin-left: 1em;
+  text-align: center;
+}
+
+.icon_alt .icn {
+  margin-left: -3em;
+}
+
+.icon_alt .icn_yazi {
+  color: #464951;
+  font-size: 22px;
+  margin-top: 1.5em;
+  margin-left: 1em;
+  letter-spacing: 2px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.icon_alt .kucuk_yesil {
+  color: #00ad6a;
+  font-size: 12px;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-weight: 800;
+}
+/* icon alt end */
+
+/* beyaz kisim  start */
+.beyaz_kisim {
+  background-color: #fcfcfc;
+  margin-top: 5em;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.beyaz_kisim .bas_kisim {
+  padding: 1.5em;
+  background-color: #fcfcfc;
+  font-size: 60px;
+  margin-left: 1em;
+}
+
+.beyaz_kisim .flex_one {
+  display: flex;
+  background-color: #fcfcfc;
+  margin-top: -3em;
+  margin-left: 9em;
+  line-height: 2em;
+  width: 167vh;
+  height: 50vh;
+}
+
+.beyaz_kisim .flex_one .ilk_kutu .alt_baslik,
+.alt_yazi {
+  background-color: #fcfcfc;
+  letter-spacing: 1px;
+}
+
+.beyaz_kisim .flex_one .ilk_kutu .alt_yazi {
+  font-weight: 500;
+  color: #464951;
+  line-height: 1.5em;
+  height: 45.5vh;
+}
+
+.beyaz_kisim .flex_one .ikinci_kutu {
+  margin-left: 2em;
+  background-color: #fcfcfc;
+  margin-top: -0.6em;
+}
+
+.beyaz_kisim .flex_one .ikinci_kutu .alt_baslik,
+.alt_yazi {
+  background-color: #fcfcfc;
+}
+
+.beyaz_kisim .flex_two {
+  display: flex;
+  background-color: #fcfcfc;
+  margin-top: -8em;
+  margin-left: 9em;
+  line-height: 1.5em;
+  width: 167vh;
+  height: 50vh;
+}
+
+.beyaz_kisim .flex_two .ucuncu_kutu .alt_baslik {
+  margin-bottom: 0.3em;
+}
+
+.beyaz_kisim .flex_two .dorduncu_kutu {
+  margin-left: 3em;
+}
+
+.beyaz_kisim .flex_two .dorduncu_kutu .alt_baslik {
+  margin-bottom: 0.3em;
+}
+
+.beyaz_kisim .flex_three {
+  display: flex;
+  background-color: #fcfcfc;
+  margin-top: -8em;
+  margin-left: 9em;
+  line-height: 1.5em;
+  width: 167vh;
+  height: 50vh;
+}
+
+.beyaz_kisim .flex_three .altinci_kutu {
+  margin-left: 1.2em;
+}
+/* beyaz kisim  end */
+
+/* footer start */
+footer {
+  background-color: #080c16;
+}
+
+footer .licn {
+  margin-left: 10em;
+  margin-top: 8em;
+  width: 10em;
+}
+
+footer .ftr-btn {
+  margin-left: 10em;
+  width: 20em;
+  height: 4em;
+  background-color: #464951;
+  color: #000;
+  font-size: 16px;
+  border: none;
+  margin-top: 2em;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+footer .ftr-btn button {
+  height: 4.5em;
+  width: 21.3em;
+  color: #000;
+  background-color: #00ad6a;
+  font-weight: 900;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+footer .ftr-btn button:hover {
+  transform: translateY(-10px);
+  transition: 0.1s ease;
+  margin-left: 0.3em;
+}
+
+footer .ftr_menu {
+  margin-left: 45em;
+  display: flex;
+  flex-direction: row;
+  gap: 9em;
+  margin-top: -12em;
+  width: 40em;
+}
+
+footer .ftr_menu ul {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+footer .ftr_menu ul li {
+  background-color: #080c16;
+  list-style: none;
+  margin-top: 2em;
+  width: 9em;
+}
+
+footer .ftr_menu ul li a {
+  text-decoration: none;
+  color: #1fe374;
+}
+
+footer p {
+  color: #83858a;
+  margin-top: 8em;
+  font-size: 12px;
+  margin-left: 13em;
+}
+/* footer end */

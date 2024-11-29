@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OH.STUDIO</title>
+    <link rel="stylesheet" href="../yedinci web site/style.css" />
+    <link rel="website icon" href="../img/yedinci site logosu.avif" />
+  </head>
+  <body>
+    <!-- menu start -->
+    <div class="menu">
+      <ul>
+        <li class="active">Home</li>
+        <li>Profile</li>
+        <li>Contact</li>
+      </ul>
+      <div class="beyaz"></div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navItems = document.querySelectorAll(".menu ul li");
+        const beyaz = document.querySelector(".beyaz");
+
+        navItems.forEach((item, index) => {
+          item.addEventListener("click", function () {
+            navItems.forEach((nav) => nav.classList.remove("active"));
+            this.classList.add("active");
+
+            // Update the position of the 'beyaz' div
+            beyaz.style.transform = `translateX(${index * 120}px)`; // Adjust 120px based on your gap size
+          });
+        });
+      });
+    </script>
+    <!-- menu end -->
+
+    <!-- yazi start -->
+    <div class="yazi">
+      <h1>
+        A brand and product <br />
+        designer working with <br />
+        clients globally
+      </h1>
+
+      <div class="buttons">
+        <button class="btn1">Expertise</button>
+        <button class="btn2">Branding</button>
+        <button class="btn3">Product</button>
+        <button class="btn4">Design Systems</button>
+      </div>
+    </div>
+    <!-- yazi end -->
+
+    <!-- kart start -->
+    <div class="kart">
+      <div class="one">
+        <img src="../img/yedinci 1.avif" />
+        <div class="overlay">Aire</div>
+      </div>
+
+      <div class="two">
+        <img src="../img/yedinci 2.avif" />
+        <div class="overlay">Aire</div>
+      </div>
+
+      <div class="three">
+        <img src="../img/yedinci 3.avif" />
+        <div class="overlay">Aire</div>
+      </div>
+
+      <div class="four">
+        <img src="../img/yedinci 4.avif" />
+        <div class="overlay">Aire</div>
+      </div>
+
+      <div class="five">
+        <video autoplay loop muted poster="../img/video1.mp4">
+          <source src="../img/video1.mp4" />
+          <div class="overlay">Aire</div>
+        </video>
+      </div>
+      <div class="six">
+        <img src="../img/yedinci 5.avif" />
+        <div class="overlay">Aire</div>
+      </div>
+      <div class="seven">
+        <img src="../img/yedinci 6.avif" />
+        <div class="overlay">Aire</div>
+      </div>
+      <div class="eight">
+        <video
+          width="600px"
+          height="480px"
+          autoplay
+          loop
+          muted
+          poster="../img/video2.mp4"
+        >
+          <source src="../img/video2.mp4" />
+        </video>
+        <div class="overlay">Aire</div>
+      </div>
+      <div class="nine">
+        <img src="../img/yedinci 7.avif" />
+        <div class="overlay">Aire</div>
+      </div>
+      <div class="ten">
+        <img src="../img/yedinci 8.avif" class="ten" />
+        <div class="overlay">Aire</div>
+      </div>
+      <div class="eleven">
+        <img src="../img/yedinci 9.avif" />
+        <div class="overlay">Aire</div>
+      </div>
+
+      <div class="twelve">
+        <video
+          width="600px"
+          height="500px"
+          autoplay
+          loop
+          muted
+          poster="../img/video3.mp4"
+        >
+          <source src="../img/video3.mp4" />
+        </video>
+        <div class="overlay">Aire</div>
+      </div>
+    </div>
+    <!-- kart end -->
+
+    <!-- alt yazi start -->
+    <div class="alt_yazi">
+      <h1>
+        Let's work together. <br />
+        <span> Get in touch.</span>
+      </h1>
+    </div>
+
+    <!-- alt yazi end -->
+    <br /><br /><br />
+    <!-- footer start -->
+    <footer>
+      <div class="logo">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 800 800"
+          width="800"
+          height="800"
+          preserveAspectRatio="xMidYMid slice"
+          style="
+            width: 100%;
+            height: 100%;
+            transform: translate3d(0px, 0px, 0px);
+          "
+        >
+          <defs>
+            <clipPath id="__lottie_element_2">
+              <rect width="800" height="800" x="0" y="0"></rect>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#__lottie_element_2)">
+            <g
+              transform="matrix(0.031125394627451897,0.9995154738426208,-0.9995154738426208,0.031125394627451897,400,400)"
+              opacity="1"
+              style="display: block"
+            >
+              <path
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                fill-opacity="0"
+                stroke-miterlimit="4"
+                stroke="rgb(0,0,0)"
+                stroke-opacity="1"
+                stroke-width="24.961647518867295"
+                d=" M-243.26100158691406,-243.22900390625 C-243.26100158691406,-243.22900390625 243.26100158691406,243.22900390625 243.26100158691406,243.22900390625 M-243.22999572753906,243.25999450683594 C-243.22999572753906,243.25999450683594 243.22999572753906,-243.26100158691406 243.22999572753906,-243.26100158691406 M-344.0010070800781,0.02199999988079071 C-344.0010070800781,0.02199999988079071 344.0010070800781,-0.02199999988079071 344.0010070800781,-0.02199999988079071 M-0.02199999988079071,-344 C-0.02199999988079071,-344 0.02199999988079071,344 0.02199999988079071,344"
+              ></path>
+            </g>
+          </g>
+        </svg>
+        <p>© Oli Harris 2023</p>
+      </div>
+      <div class="sosyal">
+        <a href="#">Twitter</a><br />
+        <a href="#">Linkedin</a><br />
+        <a href="#">Mail</a>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>

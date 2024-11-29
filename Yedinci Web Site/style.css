@@ -1,0 +1,623 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 24%;
+  background-color: #e8e5e480;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 35em;
+  height: 50px;
+  border-radius: 50px;
+  position: relative;
+  position: fixed;
+}
+
+.menu .beyaz {
+  background-color: #ffffff;
+  width: 27%;
+  height: 43px;
+  margin-top: -2.3em;
+  border-radius: 50px;
+  margin-left: 0.3em;
+  transition: transform 0.3s;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: 1.6em;
+  position: relative;
+  z-index: 1;
+}
+
+.menu ul li {
+  margin-top: 0.5em;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* yazi start */
+.yazi {
+  margin-left: 24em;
+  line-height: 6em;
+  margin-top: 5em;
+  padding-top: 10em;
+}
+
+.yazi h1 {
+  font-size: 80px;
+  line-height: 1em;
+}
+
+.yazi .buttons {
+  margin-left: 3em;
+}
+
+.yazi .buttons .btn1 {
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  width: 20vh;
+  height: 6vh;
+  background-color: #ffffff;
+}
+
+.yazi .buttons .btn2 {
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  width: 20vh;
+  height: 6vh;
+  background-color: #e8e5e480;
+}
+
+.yazi .buttons .btn3 {
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  width: 20vh;
+  height: 6vh;
+  background-color: #e8e5e480;
+}
+
+.yazi .buttons .btn4 {
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  width: 28vh;
+  height: 6vh;
+  background-color: #e8e5e480;
+}
+
+/* kart start */
+.kart {
+  display: grid;
+  width: 80%;
+  margin-left: 10em;
+  line-height: 2em;
+}
+
+.kart .one {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+}
+
+.kart .one img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .one:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .one .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .one:hover .overlay {
+  opacity: 1;
+}
+
+.kart .two {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-left: 38em;
+  margin-top: -25em;
+}
+
+.kart .two img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .two:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .two .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .two:hover .overlay {
+  opacity: 1;
+}
+
+.kart .three {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-top: 2em;
+}
+
+.kart .three img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .three:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .three .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .thre:hover .overlay {
+  opacity: 1;
+}
+
+.kart .four {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-left: 38em;
+  margin-top: -25em;
+}
+
+.kart .four img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .four:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .four .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .four:hover .overlay {
+  opacity: 1;
+}
+
+.kart .five {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-top: 2em;
+}
+
+.kart .five video {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .five:hover video {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .five .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .five:hover .overlay {
+  opacity: 1;
+}
+
+.kart .six {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-left: 38em;
+  margin-top: -25em;
+}
+
+.kart .six img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .six:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .six .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .six:hover .overlay {
+  opacity: 1;
+}
+
+.kart .seven {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-top: 2em;
+}
+
+.kart .seven img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .seven:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .seven:hover .overlay {
+  opacity: 1;
+}
+
+.kart .eight {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-left: 38em;
+  margin-top: -25em;
+}
+
+.kart .eight video {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .eight:hover video {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .eight .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .eight:hover .overlay {
+  opacity: 1;
+}
+
+.kart .nine {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-top: 2em;
+}
+
+.kart .nine img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .nine:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .nine .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .nine:hover .overlay {
+  opacity: 1;
+}
+
+.kart .ten {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-left: 19em;
+  margin-top: -12.5em;
+}
+
+.kart .ten img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .ten:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .ten .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+  margin-left: 19.4em;
+  margin-top: -13em;
+}
+
+.kart .ten:hover .overlay {
+  opacity: 1;
+}
+
+.kart .eleven {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-top: -10em;
+}
+
+.kart .eleven img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .eleven:hover img {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .eleven .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .eleven:hover .overlay {
+  opacity: 1;
+}
+
+.kart .twelve {
+  position: relative;
+  width: 600px; /* İhtiyacınıza göre genişlik ve yükseklik ayarlayın */
+  height: 400px;
+  margin-left: 38em;
+  margin-top: -25em;
+}
+
+.kart .twelve video {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease; /* Geçiş süresi */
+  border-radius: 15px;
+}
+
+.kart .twelve:hover video {
+  filter: blur(10px); /* Bulanıklık miktarı */
+}
+
+.kart .twelve .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 15px;
+}
+
+.kart .twelve:hover .overlay {
+  opacity: 1;
+}
+
+/* alt_yazi start */
+.alt_yazi {
+  margin-left: 35em;
+  margin-top: 10em;
+  position: absolute;
+}
+
+.alt_yazi h1 {
+  font-size: 50px;
+}
+
+.alt_yazi h1 span {
+  color: #7f7f7f;
+}
+
+.alt_yazi h1 span:hover {
+  color: #d1d1d1;
+}
+
+footer {
+  margin-top: 15em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+}
+
+footer .logo {
+  width: 20vh;
+  height: 40px;
+  display: flex;
+  margin-left: 3em;
+}
+
+footer .logo p {
+  font-size: 16px;
+  width: 80vh;
+  margin-top: 0.8em;
+  margin-left: 0.2px;
+}
+
+footer .sosyal {
+  margin-right: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+footer .sosyal a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #000;
+}

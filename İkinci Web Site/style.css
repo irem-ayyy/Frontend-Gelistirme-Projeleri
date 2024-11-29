@@ -1,0 +1,758 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* menü start */
+
+.menu-container {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.menu-container .logo {
+  width: 100px;
+  height: 100px;
+  justify-content: start;
+  align-items: start;
+  text-align: center;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.menu-container .logo .bx {
+  font-size: 48px;
+  transform: rotate(90deg);
+}
+
+.menu-container .logo #bx1 {
+  font-size: 50px;
+  transform: rotate(0deg);
+  margin-left: -0.3em;
+}
+
+.menu-container .menu-list {
+  margin-left: -10px;
+  margin-top: -18px;
+  font-weight: 500;
+}
+
+.menu-container .menu-list ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.menu-container .menu-list ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+.menu-container .menu-list ul .turuncu1 {
+  display: flex;
+}
+
+.menu-container .menu-list ul li .turuncu {
+  color: #ff764d;
+}
+
+.menu-container .menu-list ul .turuncu1 .bx {
+  color: #ff764d;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.menu-end {
+  margin-top: -1em;
+}
+
+.menu-end ul {
+  display: flex;
+  list-style: none;
+  margin-left: 29em;
+  font-weight: 500;
+  flex-direction: row;
+  gap: 25px;
+  margin-top: -1em;
+}
+
+.menu-end ul li {
+  margin-top: 1em;
+}
+
+.menu-end ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.menu-end ul .mavi1 {
+  margin-top: 0.6em;
+}
+
+.menu-end ul .mavi1 .mavi {
+  color: #0000ff;
+  font-size: 25px;
+}
+
+/* header start */
+header {
+  width: 80%;
+  margin-left: 45px;
+}
+
+header .menu2 ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 32px;
+}
+
+header .menu2 ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+header .menu2 ul li .tur {
+  font-size: 23px;
+  color: #ff764d;
+}
+
+/* header start */
+
+.ana-container {
+  width: 80%;
+  height: 80vh;
+  background-color: gray;
+  margin: auto;
+  position: relative;
+  margin-top: 1.5em;
+}
+
+.ana-container img {
+  width: 168.3vh;
+  height: 100vh;
+}
+
+.ana-container h2 {
+  text-align: center;
+  font-size: 100px;
+  color: #ff764d;
+  position: absolute; /* Bunu ekliyoruz */
+  top: 60%; /* Ortalamak için ekliyoruz */
+  left: 50%; /* Ortalamak için ekliyoruz */
+  transform: translate(-50%, -50%); /* Ortalamak için ekliyoruz */
+  z-index: 1; /* Üstte görünmesi için ekliyoruz */
+}
+
+/* ana-alt */
+.ana-alt {
+  margin-top: 18em;
+  width: 80%;
+  margin-left: 10em;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ana-alt .ana-ust-y {
+  width: 125vh;
+  font-size: 28px;
+  font-weight: bold;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.ana-alt .ana-alt-y {
+  width: 125vh;
+  font-size: 18px;
+  margin: auto;
+  line-height: 1.5;
+  margin-top: 2em;
+}
+
+/* orta start */
+.orta-container {
+  width: 80%;
+  height: 200vh;
+  justify-content: center;
+  align-items: center;
+  margin: 10em auto;
+}
+
+.orta-container .sari {
+  background: #fbffa7;
+  width: 120vh;
+  height: 150vh;
+  margin-left: 30.4em;
+  position: relative;
+}
+
+.orta-container .ortala {
+  display: flex;
+  position: absolute;
+  margin-top: -60%;
+}
+
+.orta-container .ortala .orta-img img {
+  width: 95vh;
+  height: 100vh;
+  object-fit: cover;
+  margin-left: -5em;
+}
+
+.orta-container .ortala .orta-img-2 img {
+  width: 75vh;
+  height: 55vh;
+  object-fit: cover;
+  margin-left: 10em;
+  margin-top: 8em;
+}
+
+/* ana-alt-2 */
+.ana-alt-2 {
+  margin-top: -25em;
+  width: 80%;
+  margin-left: 10em;
+}
+
+.ana-alt-2 .ana-ust-y {
+  width: 130vh;
+  font-size: 28px;
+  font-weight: bold;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.ana-alt-2 .ana-alt-y {
+  width: 125vh;
+  font-size: 18px;
+  margin: auto;
+  line-height: 1.5;
+  margin-top: 2em;
+  margin-left: 135px;
+}
+
+/* orta img */
+iframe {
+  margin-left: 19em;
+  margin-top: 5em;
+}
+
+.if-yazi {
+  margin-left: 20em;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* ana-alt-3 */
+.ana-alt-3 {
+  margin-top: 10em;
+  width: 80%;
+  margin-left: 12em;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ana-alt-3 .ana-ust-y {
+  width: 130vh;
+  font-size: 28px;
+  font-weight: bold;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.ana-alt-3 .ana-alt-y {
+  width: 125vh;
+  font-size: 18px;
+  margin: auto;
+  line-height: 2;
+  margin-top: 2em;
+  margin-left: 135px;
+}
+
+/* orta cont 2 */
+
+.orta-container-2 {
+  width: 80%;
+  height: 200vh;
+  justify-content: center;
+  align-items: center;
+  margin: 10em auto;
+}
+
+.orta-container-2 .yesil {
+  background: #b6ffc0;
+  width: 120vh;
+  height: 160vh;
+  margin-left: -10em;
+  position: relative;
+}
+
+.orta-container-2 .ortala {
+  display: flex;
+  position: absolute;
+  margin-top: -65%;
+}
+
+.orta-container-2 .ortala .orta-img img {
+  width: 75vh;
+  height: 55vh;
+  object-fit: cover;
+  margin-left: -2em;
+  margin-top: -3em;
+}
+
+.orta-container-2 .ortala .orta-img-2 img {
+  width: 80vh;
+  height: 85vh;
+  object-fit: cover;
+  margin-left: 7em;
+  margin-top: 4em;
+}
+
+.orta-container-2 .ortala .orta-img-3 img {
+  width: 75vh;
+  height: 55vh;
+  object-fit: cover;
+  margin-left: -77.6em;
+  margin-top: 25em;
+}
+
+/* ana-alt-4 */
+.ana-alt-4 {
+  margin-top: -75em;
+  width: 80%;
+  margin-left: 10em;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ana-alt-4 .ana-ust-y {
+  width: 130vh;
+  font-size: 28px;
+  font-weight: bold;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.ana-alt-4 .ana-alt-y {
+  width: 125vh;
+  font-size: 18px;
+  margin: auto;
+  line-height: 2;
+  margin-top: 2em;
+  margin-left: 135px;
+}
+
+/* resim start */
+.resim-start {
+  margin: 38em 7em;
+}
+
+.resim-start img {
+  width: 80em;
+}
+
+/* ana-alt-5 */
+.ana-alt-5 {
+  margin-top: -30em;
+  width: 80%;
+  margin-left: 15em;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ana-alt-5 .ana-ust-y {
+  width: 130vh;
+  font-size: 28px;
+  font-weight: bold;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.ana-alt-5 .ana-alt-y {
+  width: 125vh;
+  font-size: 18px;
+  margin: auto;
+  line-height: 2;
+  margin-top: 2em;
+  margin-left: 135px;
+}
+
+/* orta cont 3 */
+
+.orta-container-3 {
+  width: 80%;
+  height: 200vh;
+  justify-content: center;
+  align-items: center;
+  margin: 8em auto;
+}
+
+.orta-container-3 .mor {
+  background: #d5b3ff;
+  width: 150vh;
+  height: 140vh;
+  margin-left: -10em;
+  position: relative;
+  margin: auto;
+}
+
+.orta-container-3 .ortala {
+  display: flex;
+  position: absolute;
+  margin-top: -55%;
+}
+
+.orta-container-3 .ortala .orta-img img {
+  width: 75vh;
+  height: 60vh;
+  object-fit: cover;
+  margin-left: -4em;
+  margin-top: 6em;
+}
+
+.orta-container-3 .ortala .orta-img-2 img {
+  width: 90vh;
+  height: 100vh;
+  object-fit: cover;
+  margin-left: 14.2em;
+  margin-top: -4em;
+}
+
+/* ana-alt-6 */
+.ana-alt-6 {
+  margin-top: -30em;
+  width: 80%;
+  margin-left: 15em;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ana-alt-6 .ana-ust-y {
+  width: 130vh;
+  font-size: 28px;
+  font-weight: bold;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.ana-alt-6 .ana-alt-y {
+  width: 125vh;
+  font-size: 18px;
+  margin: auto;
+  line-height: 2;
+  margin-top: 2em;
+  margin-left: 135px;
+}
+
+/* img alt start */
+.img-alt {
+  display: flex;
+  margin: 10em auto;
+  margin-left: 6em;
+}
+
+.img-alt .imgg img {
+  object-fit: cover;
+  width: 90vh;
+  height: 98vh;
+}
+
+.img-alt .mavi {
+  width: 90vh;
+  height: 98vh;
+  background: #b1c5ff;
+}
+
+.img-alt .mavi .yazi {
+  width: 60vh;
+  height: 40vh;
+  margin: 15em auto;
+}
+
+.img-alt .mavi .yazi p {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.7;
+}
+
+.img-alt .mavi .yazi a {
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 2em;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 50vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-top: 1.8px solid #ccc;
+  padding-top: 10px;
+}
+
+footer .logo {
+  width: 10%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3em 3em;
+}
+
+footer .logo h1 {
+  font-size: 50px;
+}
+
+footer .fot1 {
+  margin-left: 3em;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  line-height: 1.5;
+}
+
+footer .fot1 a,
+i {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .fot1 a {
+  display: flex;
+}
+
+footer .fot1 .bx {
+  font-size: 40px;
+}
+
+footer .fot2 {
+  margin-left: 30em;
+  margin-top: -10em;
+  width: 23%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  line-height: 1.5;
+}
+
+footer .fot2 h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer .fot2 .fot-a {
+  display: flex;
+}
+
+footer .fot2 .fot-a,
+.bx {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .fot2 .fot-a .bx {
+  font-size: 40px;
+}
+
+footer .fot3 {
+  margin-left: 56em;
+  margin-top: -9em;
+  width: 41%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+footer .fot3 h3 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+footer .fot3 .button {
+  display: flex;
+  margin-top: 1.2em;
+}
+
+footer .fot3 .button input {
+  width: 35vh;
+  height: 35px;
+}
+
+footer .fot3 .button button {
+  width: 90px;
+  border: none;
+  background: #0000ff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+footer .fot4 {
+  margin-left: 3em;
+  margin-top: 9em;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+footer .fot4 h3 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+footer .fot4 .fot-b {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+}
+
+footer .fot4 .fot-b .bx {
+  font-size: 40px;
+}
+
+footer .fot5 {
+  margin-left: 30em;
+  margin-top: -9.8em;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+footer .fot5 h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer .fot5 .fot-c {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  text-decoration: none;
+}
+
+footer .fot5 .fot-c .bx {
+  font-size: 40px;
+}
+
+footer .fot6 {
+  margin-left: 56em;
+  margin-top: -7em;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+footer .fot6 h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer .fot6 .opt {
+  display: flex;
+}
+
+footer .fot6 .opt .fot-d {
+  font-size: 16px;
+  color: #000;
+  display: flex;
+  border: none;
+  width: 110px;
+  margin-top: 1em;
+  font-weight: 500;
+}
+
+footer .fot6 .opt .fot-e {
+  font-size: 16px;
+  color: #000;
+  display: flex;
+  border: none;
+  width: 209px;
+  margin-left: 0.3em;
+  font-weight: 500;
+  margin-top: 1em;
+}
+
+footer .fot7-cont {
+  margin-left: 3em;
+  margin-top: 10em;
+  width: 96.5%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .fot7-cont .fot-menu {
+  width: 58%;
+  height: 40px;
+  font-size: 20px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .fot7-cont .fot-menu a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+footer .fot7-cont .fot-log {
+  display: flex;
+  margin-right: 5em;
+  width: 15%;
+}
+
+footer .fot7-cont .fot-log h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 0.6em;
+}
+
+footer .fot7-cont .fot-log #bx2 {
+  font-size: 40px;
+  transform: rotate(90deg);
+  margin-left: 5px;
+}
+
+footer .fot7-cont .fot-log #bx3 {
+  font-size: 40px;
+  transform: rotate(0deg);
+  margin-left: -13px;
+}

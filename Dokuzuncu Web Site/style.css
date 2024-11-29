@@ -1,0 +1,1135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* menu start */
+.menu {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 15vh;
+  margin-top: 2.5em;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-top: 2em;
+  margin-left: 1.5em;
+}
+
+.menu .navbar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.2em;
+  margin-top: -4.4em;
+  margin-left: -13em;
+}
+
+.menu .navbar ul li {
+  list-style: none;
+}
+
+.menu .navbar ul li a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #111111;
+}
+
+.menu .navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu .son-list ul {
+  display: flex;
+  margin-right: 2em;
+  margin-top: -4.5em;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.menu .son-list ul li {
+  list-style: none;
+}
+
+.menu .son-list ul li a {
+  text-decoration: none;
+  color: #111111;
+  font-size: 1.1em;
+}
+
+.menu .son-list ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu .son-list ul .bx {
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+}
+/* menu end */
+
+/* mn start */
+.mn_alt {
+  display: flex;
+}
+/* search start */
+.search {
+  background-color: aqua;
+  width: 102vh;
+  height: 8vh;
+  margin-left: 2em;
+  display: flex;
+}
+
+.search input {
+  width: 102vh;
+  height: 8vh;
+  border: none;
+  background-color: rgb(236, 236, 236);
+}
+
+.search button {
+  width: 20vh;
+  height: 8vh;
+  background-color: #00838c;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/*search end */
+
+.mn_alt p {
+  font-size: 26px;
+  margin-top: 0.3em;
+  margin-left: 2em;
+  font-weight: 800;
+}
+
+.mn_alt p span {
+  color: #757575;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* mn end */
+
+/* resim start */
+.resim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5em;
+}
+
+.resim img {
+  width: 140vh;
+  height: 70vh;
+  margin-left: -8em;
+  margin-top: 1em;
+  border-radius: 17px;
+}
+
+.resim .siyah {
+  width: 50vh;
+  height: 70vh;
+  background-color: #111111;
+  margin-left: 1em;
+  border-radius: 24px;
+  margin-top: 2em;
+  color: #fff;
+}
+
+.resim .siyah .y-new {
+  font-size: 20px;
+  background-color: #1bdbdb;
+  margin-top: 5em;
+  width: 4em;
+  margin-left: 7.4em;
+  border-radius: 3.8px;
+}
+
+.resim .siyah .yazi {
+  margin-top: 1em;
+  font-size: 21px;
+}
+
+.resim .siyah .buyuk-y {
+  margin-top: 0.3em;
+  font-size: 42px;
+}
+
+.resim .siyah button {
+  width: 35vh;
+  height: 7vh;
+  margin-top: 1em;
+  font-size: 18px;
+  display: flex;
+  margin-left: 3em;
+  padding: 0.6em;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resim .siyah button .active {
+  display: none;
+  font-size: 30px;
+  margin-left: 6.5em;
+  margin-top: -0.3em;
+  position: absolute;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+.resim .siyah button:hover {
+  transform: scale(1.1); /* Butonu büyüt */
+}
+
+.resim .siyah button:hover .active {
+  display: block;
+  left: 15px;
+}
+/* resim end */
+
+/* yazi start */
+.yazilar {
+  margin-top: 5em;
+  margin-left: 10em;
+}
+
+.yazilar h2 {
+  font-size: 60px;
+  margin-left: 2.8em;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; /* Butonlar arasında boşluk */
+  margin-left: 21em;
+  margin-top: 1em;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 25px; /* Yuvarlak kenarlar */
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button.active {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.button.active:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.button:hover {
+  border: 2px solid black; /* Hover rengini değiştirebilirsiniz */
+}
+
+/* yazi end */
+
+/* kart start */
+.kart {
+  display: block;
+  width: 80%;
+  margin-top: 2em;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.kart .yesil_kart1 {
+  position: absolute;
+}
+
+.kart .yesil_kart1 img {
+  width: 89vh;
+  margin-left: 8em;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.kart .yesil_kart1 img:hover {
+  box-shadow: 0px 0px 10px rgba(2, 2, 2, 0.2);
+  border: none;
+}
+
+.kart .yesil_kart1 .kart_icerik1 {
+  position: absolute;
+  top: 70%;
+  left: 23%;
+}
+
+.kart .yesil_kart1 .kart_icerik1 h1 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.kart .yesil_kart1 .kart_icerik1 p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0.2em;
+}
+
+.kart .yesil_kart1 .kart_icerik1 .y_btn {
+  margin-top: 0.9em;
+  width: 11em;
+  height: 4em;
+  color: #fff !important;
+  background-color: #111111 !important;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  cursor: pointer !important;
+}
+
+.kart .yesil_kart1 .kart_icerik1 .y_btn:hover {
+  transform: scale(1.2) !important;
+}
+
+.kart .gri_kart1 {
+  position: absolute;
+}
+
+.kart .gri_kart1 img {
+  width: 79vh;
+  height: 20em;
+  margin-left: 50em;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease-in;
+  cursor: pointer;
+  border: none;
+}
+
+.kart .gri_kart1 img:hover {
+  box-shadow: 0px 0px 10px rgba(2, 2, 2, 0.2);
+  border: none;
+}
+
+.kart .gri_kart1 .kart_icerik2 {
+  position: absolute;
+  top: 41%;
+  left: 60%;
+}
+
+.kart .gri_kart1 .kart_icerik2 h1 {
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
+
+.kart .gri_kart1 .kart_icerik2 p {
+  font-size: 14.9px;
+  font-weight: 600;
+  margin-top: 0.2em;
+  letter-spacing: 1px;
+}
+
+.kart .gri_kart1 .kart_icerik2 button {
+  margin-top: 0.9em;
+  width: 11em;
+  height: 4em;
+  background-color: #111111;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.kart .gri_kart1 .kart_icerik2 button:hover {
+  transform: scale(1.1);
+}
+
+.kart .khv_kart1 {
+  position: absolute;
+  margin-top: 22em;
+}
+
+.kart .khv_kart1 img {
+  width: 79vh;
+  height: 17.7em;
+  margin-left: 50em;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease-in;
+  cursor: pointer;
+  border: none;
+}
+
+.kart .khv_kart1 img:hover {
+  box-shadow: 0px 0px 10px rgba(2, 2, 2, 0.2);
+  border: none;
+}
+
+.kart .khv_kart1 .kart_icerik3 {
+  position: absolute;
+  top: 41%;
+  left: 60%;
+}
+
+.kart .khv_kart1 .kart_icerik3 h1 {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.1px;
+}
+
+.kart .khv_kart1 .kart_icerik3 p {
+  font-size: 14.9px;
+  font-weight: 600;
+  margin-top: 0.2em;
+  letter-spacing: 0.1px;
+}
+
+.kart .khv_kart1 .kart_icerik3 button {
+  margin-top: 0.9em;
+  width: 11em;
+  height: 4em;
+  background-color: #111111;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.kart .khv_kart1 .kart_icerik3 button:hover {
+  transform: scale(1.1);
+}
+
+/* kart end */
+
+/* pad start */
+.pad {
+  margin-top: 50em;
+}
+
+.pad .pad-yazi {
+  font-size: 51px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.container {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  margin-right: 27em;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 85em !important;
+  height: 30em !important;
+  border-radius: 10px;
+}
+
+.text-container {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  width: 87em;
+}
+
+.text-container span {
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.hover-text {
+  margin: 20px 0;
+  cursor: pointer;
+  font-size: 1em;
+  color: #333;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+.hover-text:hover {
+  background-color: rgb(171, 170, 170);
+  border-radius: 5px;
+  width: 25em;
+}
+
+.pad-btn {
+  width: 30vh;
+  height: 7vh;
+  margin-top: 3em;
+  font-size: 18px;
+  display: flex;
+  margin-left: 35em;
+  padding: 0.9em;
+  padding-left: 1.5em;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 2em;
+  border-radius: 5px;
+}
+
+.pad-btn .active {
+  display: none;
+  font-size: 30px;
+  margin-left: 4.8em;
+  margin-top: -0.4em;
+  position: absolute;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  /*  background-color: #fff; */
+}
+
+.pad-btn:hover {
+  transform: scale(1.1); /* Butonu büyüt */
+}
+
+.pad-btn:hover .active {
+  display: block;
+  left: 15px;
+}
+/* pad  end*/
+
+/* alt kısım start*/
+.alt-kisiml {
+  margin-top: 10em;
+}
+
+.alt-kisiml .alt_yazi_bl {
+  font-size: 42px;
+  margin-left: 1.5em;
+  font-style: unset;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.alt-kisiml .alt-imgl {
+  display: flex;
+  position: relative;
+}
+
+.alt-kisiml .alt-imgl img {
+  width: 93em;
+  height: 45em;
+  border-radius: 30px;
+  margin-left: 0.9em;
+  margin-top: 3em;
+}
+
+.alt-kisiml .alt-imgl .beyaz-altl {
+  position: absolute;
+}
+
+.alt-kisiml .alt-imgl .beyaz-altl .lt_yazi {
+  margin-top: 2em;
+  background-color: #fff;
+  width: 47.8%;
+  height: 14.5em;
+  margin-left: 19.2em;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.alt-kisiml .alt-imgl .beyaz-altl .flexs {
+  margin-top: -23em;
+  margin-left: 50em;
+  display: flex;
+}
+
+.alt-kisiml .alt-imgl .beyaz-altl .flexs img {
+  width: 21em;
+  height: 18em;
+}
+
+.alt-kisiml .alt-imgl .beyaz-altl .flexs .alt-kutu {
+  margin-right: 5em;
+  margin-top: 10em;
+}
+
+.alt-kisiml .alt-imgl .beyaz-altl .flexs .alt-kutu .lt_y {
+  font-size: 18.8px;
+  font-weight: 500;
+}
+
+.alt-kisiml .alt-imgl .beyaz-altl .flexs .alt-kutu h3 {
+  margin-top: 0.3em;
+}
+
+.alt-kisiml .alt-imgl .beyaz-altl .flexs .alt-kutu a {
+  text-decoration: none;
+  color: #000;
+}
+.alt-kisiml .alt-imgl .beyaz-altl .flexs .alt-kutu a i {
+  background-color: rgb(216, 254, 255);
+  width: 1.6em;
+  height: 1.7em;
+  border-radius: 5px;
+  padding: 0.3em;
+}
+
+/* alt kısım end*/
+
+/* yesil blm start*/
+.yesil_bolum {
+  background-color: #d8efef;
+  margin-top: 2em;
+  height: 22em;
+  padding: 5em;
+  text-align: center;
+}
+
+.yesil_bolum h1 {
+  font-size: 2.5em;
+}
+
+.yesil_bolum p {
+  font-size: 1.1em;
+  margin-top: 1em;
+  font-weight: 100;
+  color: #3f3f3f;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.yesil_bolum .kenarlik {
+  width: 48.8em;
+  margin-left: 17.8em;
+  margin-top: 1em;
+  cursor: pointer;
+  height: 4.8em;
+  position: relative;
+  display: flex;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.yesil_bolum .kenarlik:focus-within {
+  border-color: #007bff; /* Blue border color on focus */
+}
+
+.yesil_bolum .kenarlik input {
+  width: 35em;
+  height: 3.5em;
+  margin-left: 1px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: 1px solid #000;
+  outline: none;
+  padding: 10px;
+}
+
+.yesil_bolum .kenarlik button {
+  width: 5em;
+  margin-left: 46.6em;
+  position: absolute;
+  height: 4.7em;
+  margin-top: 0px;
+  font-size: 15px;
+  color: white;
+  background-color: #000;
+}
+
+/* yesil blm end*/
+
+/* mavi_yazi start */
+.mavi_alan {
+  margin-top: 2em;
+  margin-left: -5em;
+}
+
+.mavi_alan img {
+  position: relative;
+  width: 95%;
+  height: 30em;
+}
+
+.mavi_alan .isim {
+  margin-top: -24em;
+  position: absolute;
+  margin-left: 9em;
+  display: flex;
+}
+
+.mavi_alan .isim h4 {
+  font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000;
+  width: 30em;
+}
+
+.mavi_alan .isim h4 span {
+  font-weight: 600;
+}
+
+.mavi_alan .logo_two {
+  margin-left: 40em;
+  display: flex;
+}
+
+.mavi_alan .logo_two svg {
+  width: 150px;
+  height: 150px;
+  margin-top: -7em;
+}
+
+.mavi_alan .logo_two p {
+  margin-top: -2em;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mavi_alan .mavi_yazi {
+  margin-left: -12em;
+}
+
+.mavi_alan .mavi_yazi h1 {
+  font-size: 60px;
+}
+
+.mavi_alan .mavi_yazi .p1 {
+  margin-top: 1em;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mavi_alan .mavi_yazi .p2 {
+  margin-top: 2em;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mavi_alan .mavi_yazi .mavi-btn {
+  width: 25vh;
+  height: 7vh;
+  margin-top: 1em;
+  font-size: 18px;
+  display: flex;
+  padding: 0.9em;
+  padding-left: 1.5em;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 2em;
+  border-radius: 5px;
+}
+
+.mavi_alan .mavi_yazi .mavi-btn .active {
+  display: none;
+  font-size: 30px;
+  margin-left: 3.2em;
+  margin-top: 0.4em;
+  position: absolute;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+.mavi_alan .mavi_yazi .mavi-btn:hover .active {
+  display: block;
+  left: 15px;
+}
+
+.mavi_alan .mavi_yazi .mavi-btn:hover {
+  transform: scale(1.1); /* Butonu büyüt */
+}
+
+/* mavi_yazi end */
+
+/* text alanı start */
+.text_alani {
+  margin-top: 3em;
+  margin-left: 30.5em;
+}
+
+.text_alani h3 {
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+/* text alanı end */
+
+/* sıkça sorulan sorular start */
+.faq-container-baslik {
+  margin-top: 0.3em;
+  margin-left: 17.5em;
+  font-size: 35px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 2em;
+  font-weight: 500;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  color: black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.faq-toggle {
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  font-weight: 600;
+}
+
+.faq-item.active .faq-answer {
+  display: block;
+}
+
+.faq-item.active .faq-toggle {
+  transform: rotate(180deg);
+}
+/* sıkça sorulan sorular end */
+
+/* en alt yazi start */
+
+.en_alt_yazi {
+  margin-top: 5em;
+  margin-left: 3em;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.en_alt_yazi .en_one {
+  font-size: 15px;
+}
+
+.en_alt_yazi .en_two {
+  margin-top: 1em;
+}
+/* en alt yazi end */
+
+/* yardım start */
+
+.yardim {
+  background: #f4f2f2;
+  margin-top: 1em;
+  height: 5em;
+  padding: 2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.yardim p {
+  margin-left: 23em;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* yardım end */
+
+/* footer start */
+footer {
+  background: #000;
+  color: #fff;
+  padding: 2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+footer h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+footer .footer-menu {
+  display: flex;
+  padding: 5em;
+  flex-direction: row;
+  gap: 5.2em;
+}
+
+footer .footer-menu .ftr_one ul {
+  line-height: 2em;
+}
+
+footer .footer-menu .ftr_one ul h2 {
+  font-size: 17px;
+}
+
+footer .footer-menu .ftr_one ul li {
+  list-style: none;
+}
+
+footer .footer-menu .ftr_one ul li a {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer .footer-menu .ftr_one ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-menu .ftr_two ul {
+  line-height: 2em;
+}
+
+footer .footer-menu .ftr_two ul h2 {
+  font-size: 17px;
+}
+
+footer .footer-menu .ftr_two ul li {
+  list-style: none;
+}
+
+footer .footer-menu .ftr_two ul li a {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer .footer-menu .ftr_two ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-menu .ftr_three ul {
+  line-height: 2em;
+}
+
+footer .footer-menu .ftr_three ul h2 {
+  font-size: 17px;
+}
+
+footer .footer-menu .ftr_three ul li {
+  list-style: none;
+}
+
+footer .footer-menu .ftr_three ul li a {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer .footer-menu .ftr_three ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-menu .ftr_four ul {
+  line-height: 2em;
+}
+
+footer .footer-menu .ftr_four ul h2 {
+  font-size: 17px;
+}
+
+footer .footer-menu .ftr_four ul li {
+  list-style: none;
+}
+
+footer .footer-menu .ftr_four ul li a {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer .footer-menu .ftr_four ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-menu .ftr_five ul {
+  line-height: 2em;
+}
+
+footer .footer-menu .ftr_five ul h2 {
+  font-size: 17px;
+}
+
+footer .footer-menu .ftr_five ul li {
+  list-style: none;
+}
+
+footer .footer-menu .ftr_five ul li a {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer .footer-menu .ftr_five ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-menu .ftr_six ul {
+  line-height: 2em;
+}
+
+footer .footer-menu .ftr_six ul h2 {
+  font-size: 17px;
+}
+
+footer .footer-menu .ftr_six ul li {
+  list-style: none;
+}
+
+footer .footer-menu .ftr_six ul li a {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer .footer-menu .ftr_six ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .logo_ftr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 5em;
+  margin-top: -7em;
+}
+
+footer .logo_ftr .logo_i {
+  display: flex;
+  width: 50em;
+}
+
+footer .logo_ftr .logo_i svg {
+  width: 18em;
+  height: 3em;
+  background: white;
+}
+
+footer .logo_ftr .logo_i p {
+  margin-left: 1em;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  width: 8.6em;
+  margin-top: 0.5em;
+}
+
+footer .logo_ftr .logo_i p .bx {
+  font-size: 1.5em;
+}
+
+footer .logo_ftr .icon {
+  display: flex;
+  gap: 1em;
+}
+
+footer .logo_ftr .icon .bx {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+footer .telif {
+  margin-top: 1em;
+}
+
+footer .telif .telif_one {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: -1em;
+}
+
+footer .telif .telif_one p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+footer .telif .telif_one ul {
+  display: flex;
+  gap: 1.5em;
+  margin-right: 1em;
+}
+
+footer .telif .telif_one ul li {
+  list-style: none;
+}
+
+footer .telif .telif_one ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+footer .telif .telif_one ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .telif .telif_two {
+  margin-left: -1em;
+}
+
+footer .telif .telif_two p {
+  font-size: 13px;
+  font-weight: 600;
+}
+/* footer end */
